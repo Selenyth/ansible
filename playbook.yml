@@ -1,6 +1,6 @@
 ---
 - name: "Osef"
-  hosts: "linux"
+  hosts: "test"
   gather_facts: false
   become: true
   tasks:
