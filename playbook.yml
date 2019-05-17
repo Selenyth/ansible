@@ -2,7 +2,6 @@
 - name: "Osef"
   hosts: "test"
   gather_facts: false
-  become: true
   tasks:
     - name: "creation fichier"
       file:
