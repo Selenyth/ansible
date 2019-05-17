@@ -4,5 +4,9 @@
   gather_facts: false
   become: true
   tasks:
-    - debug:
-        msg: "coucou"
+    - name: "creation fichier"
+      file:
+        path: "/home/yoann/test.txt"
+        state: "file"
+        mode: "0700"
+...
