@@ -7,6 +7,6 @@
     - name: "creation fichier"
       file:
         path: "/home/yoann/test.txt"
-        state: "file"
+        state: "touch"
         mode: "0700"
 ...
